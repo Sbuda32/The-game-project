@@ -7,4 +7,8 @@ const route = require('./routes/');//game route
 
 const auth = require('./routes/auth');//authentication route
 
+var app = express();
+
 const db = require('./models');
+
+var flash = require('connect-flash');
