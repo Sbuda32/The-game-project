@@ -27,3 +27,10 @@ var flash = require('connect-flash');
 app.set('view engine','pug');
 
 app.use(express.static(__dirname +'/assets'));
+
+app.use('/',route);
+
+app.use('/auth',auth);
+
+var serv= app.listen(process.env.PORT || 4444);
+ console.log("Server started.");
