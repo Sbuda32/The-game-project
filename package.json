@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sbuda32/The-game-project/issues"
   },
-  "homepage": "https://github.com/Sbuda32/The-game-project#readme"
+  "homepage": "https://github.com/Sbuda32/The-game-project#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
